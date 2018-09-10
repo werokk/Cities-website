@@ -1,0 +1,84 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<title>Cities</title>
+<link rel="stylesheet" href="markup.css">
+</head>
+<body>
+  <div class="navbar">
+
+
+  <ul>
+  <li><h3 style="color: white;padding-left:20; padding-right:20;">Select city: </h3> </li>
+  <li>
+    <div class="selectdiv ">
+
+    <select id="selection">
+  </select>
+  </div>
+  </li>
+  </ul>
+  </div>
+
+
+
+    <div id="descr">
+
+      <h2 id="cityName">London</h2>
+      <p style="font-size:1.3em"id="cityDescr">London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’ clock tower and Westminster Abbey, site of British monarch coronations. Across the Thames River, the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city.</p>
+
+  </div>
+
+  <div id="weatherDiv">
+    <h1 style="text-align:center;font-size: 3.5em;margin-top: 0px;"id="temp"> ℃ </h1>
+    <h2 style="text-align:center;font-size: 1.7em;"id="wDescr"> </h2>
+    <p style="text-align:center;font-size:1.5em;"id="time"></p>
+
+
+  </div>
+
+  <div id="mapDiv">
+
+
+
+  </div>
+
+  <!-- <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img id="changePictureYo" src="London.jpg"/>
+    </div>
+  </div> -->
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img class="imgSelected" src="London0.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img class="imgSelected" src="London1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img class="imgSelected" src="London2.jpg" style="width:100%">
+    </div>
+
+  </div>
+  <br>
+
+<div style="margin-left:300;">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+
+
+<script src="script.js" charset="utf-8"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYPAxXbWmil7aSNgqIAbkmAOC9Yw4XaEk&callback=initMap"
+    async defer></script>
+
+
+
+
+</body>
